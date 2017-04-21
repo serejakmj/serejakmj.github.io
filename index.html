@@ -6,6 +6,11 @@
         <link rel="stylesheet" media="screen and (max-device-width: 1300px)" href="mobile.css">
     </head>
     <body>
+        <script type="text/javascript">
+          function a(){
+              {document.getElementById('graph').innerHTML = 'Идеальный график';}
+          }
+        </script>
         <div id="header">
             <div id="content">
                  <div id="logo">Твое невъебенное<br>название</div>
@@ -33,7 +38,7 @@
                             <div class="inputline">h= <input type="text"></div>
                             <div class="inputline">F(x)= <input type="text"></div>
                         </div>
-                         <a href="#"><div id="btns">Считать</div></a>
+                         <a><div id="btns" onclick='a();'>Считать</div></a>
                     </div>  
                 </div>
                  <div id="cnt">
@@ -49,7 +54,7 @@
                             <div class="inputline">F(x)= <input type="text"></div>
                             <div class="inputline">b= <input type="text"></div>
                         </div>
-                        <a href="#"><div id="btns">Считать</div></a>
+                        <a><div id="btns" onclick='a();'>Считать</div></a>
                     </div>  
                 </div>
             </center>
